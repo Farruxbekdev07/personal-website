@@ -1,0 +1,562 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f4f7ff" />
+    <meta
+      name="description"
+      content="Farruxbek Mirzakulov — IT student at INHA University in Tashkent, exploring software, networks, and cybersecurity."
+    />
+    <title>Farruxbek Mirzakulov — Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Main navigation">
+        <a class="brand" href="#home" aria-label="Farruxbek Mirzakulov, home"
+          ><span class="brand-mark">FM</span
+          ><span>Farruxbek<span class="brand-dot">.</span></span></a
+        >
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav-links"
+          aria-label="Open navigation menu"
+        >
+          <span></span><span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#about" data-nav>About</a
+          ><a href="#courses" data-nav>Courses</a
+          ><a href="#projects" data-nav>Projects</a
+          ><a href="#skills" data-nav>Skills</a
+          ><a href="#contact" data-nav>Contact</a>
+          <button
+            class="theme-toggle"
+            type="button"
+            aria-label="Switch to dark mode"
+            title="Switch color theme"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="4" />
+              <path
+                d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"
+              />
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="hero section" id="home" aria-labelledby="hero-title">
+        <div class="hero-grid container">
+          <div class="hero-copy">
+            <p class="eyebrow">
+              <span class="status-dot"></span> IT STUDENT · TASHKENT, UZBEKISTAN
+            </p>
+            <h1 id="hero-title">
+              Curious by nature.<br /><span class="gradient-text"
+                >Building for what’s next.</span
+              >
+            </h1>
+            <p class="hero-intro">
+              Hello, I’m <strong>Farruxbek Mirzakulov</strong>, an IT student at
+              INHA University in Tashkent. I’m exploring how software, reliable
+              networks, and cybersecurity can make technology work better for
+              everyone.
+            </p>
+            <p class="hero-tagline">
+              Currently exploring
+              <span id="typed-tagline" aria-live="off"
+                >software and the web</span
+              ><span class="typing-caret" aria-hidden="true"></span>
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects"
+                >Explore my projects <span aria-hidden="true">↗</span></a
+              ><a class="button button-secondary" href="#contact"
+                >Get in touch <span aria-hidden="true">→</span></a
+              >
+            </div>
+            <div class="hero-meta">
+              <span>Learning through</span><span class="meta-rule"></span
+              ><span>Coursework · Projects · Curiosity</span>
+            </div>
+          </div>
+          <div
+            class="hero-art"
+            role="img"
+            aria-label="Abstract code editor illustration"
+          >
+            <div class="art-glow"></div>
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="art-card">
+              <div class="art-card-top">
+                <span class="window-dot"></span><span class="window-dot"></span
+                ><span class="window-dot"></span
+                ><span class="art-label">learning workspace</span>
+              </div>
+              <div class="code-lines">
+                <span class="code-line"
+                  ><i>01</i><b>const</b><em> curiosity = true;</em></span
+                ><span class="code-line line-indent"
+                  ><i>02</i><b>learn</b><em>("every day");</em></span
+                ><span class="code-line line-indent"
+                  ><i>03</i><b>build</b><em>("with purpose");</em></span
+                ><span class="code-line"
+                  ><i>04</i><em>// keep exploring</em></span
+                >
+              </div>
+              <div class="art-card-foot">
+                <span class="pulse"></span> OPEN TO LEARNING
+              </div>
+            </div>
+            <div class="floating-badge badge-top">
+              <span class="badge-icon">⌘</span
+              ><span>IT student<br />at INHA</span>
+            </div>
+            <div class="floating-badge badge-bottom">
+              <span class="badge-icon">◈</span><span>Always<br />learning</span>
+            </div>
+            <span class="art-spark spark-one" aria-hidden="true">✳</span
+            ><span class="art-spark spark-two" aria-hidden="true">✳</span>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#about"
+          ><span class="scroll-line"></span> SCROLL TO EXPLORE</a
+        >
+      </section>
+      <section
+        class="section section-soft about-hero"
+        id="about"
+        aria-labelledby="about-title"
+      >
+        <div class="container about-hero-layout reveal">
+          <div class="about-hero-copy">
+            <p class="eyebrow">
+              <span class="status-dot"></span> ABOUT ME · INHA UNIVERSITY
+            </p>
+            <p class="about-hero-name">Farruxbek Mirzakulov</p>
+            <h2 id="about-title">
+              Curious about tech.<br /><span class="gradient-text"
+                >Ready to build.</span
+              >
+            </h2>
+            <p class="about-role">
+              I’m an
+              <span id="typed-about-title" aria-live="off">IT Student</span
+              ><span class="typing-caret" aria-hidden="true"></span>
+            </p>
+            <p class="about-hero-intro">
+              I study information technology at INHA University in Tashkent and
+              aspire to become a software developer. I’m interested in
+              programming, networking and cybersecurity, and enjoy turning what
+              I learn into practical web projects.
+            </p>
+            <div class="about-actions">
+              <a class="button button-primary" href="#projects"
+                >Explore My Projects <span aria-hidden="true">↗</span></a
+              ><a class="button button-secondary" href="#contact"
+                >Contact Me <span aria-hidden="true">→</span></a
+              >
+            </div>
+            <div class="about-topics" aria-label="Areas of interest">
+              <span>Programming</span><span>Networking</span
+              ><span>Cybersecurity</span>
+            </div>
+          </div>
+          <div
+            class="about-hero-visual"
+            role="img"
+            aria-label="Abstract developer workspace with code and technology topics"
+          >
+            <div class="about-visual-glow"></div>
+            <div class="about-visual-orbit orbit-a"></div>
+            <div class="about-visual-orbit orbit-b"></div>
+            <div class="about-code-card">
+              <div class="about-code-top">
+                <span></span><span></span><span></span><b>learning.workspace</b>
+              </div>
+              <div class="about-code-body">
+                <div><i>01</i><b>learn</b><em>("every day");</em></div>
+                <div><i>02</i><b>explore</b><em>("how it works");</em></div>
+                <div><i>03</i><b>build</b><em>("with purpose");</em></div>
+                <div><i>04</i><em>// stay curious</em></div>
+              </div>
+              <div class="about-code-foot">
+                <span class="pulse"></span> INHA UNIVERSITY · TASHKENT
+              </div>
+            </div>
+            <div class="about-float about-float-top">
+              <span>01</span><b>Software</b>
+            </div>
+            <div class="about-float about-float-bottom">
+              <span>02</span><b>Connected systems</b>
+            </div>
+            <span class="about-art-spark spark-a" aria-hidden="true">✳</span
+            ><span class="about-art-spark spark-b" aria-hidden="true">✳</span>
+          </div>
+        </div>
+      </section>
+      <section
+        class="section courses"
+        id="courses"
+        aria-labelledby="courses-title"
+      >
+        <div class="container">
+          <div class="section-head-row reveal">
+            <div class="section-heading">
+              <p class="eyebrow">WHAT I’M STUDYING</p>
+              <h2 id="courses-title">
+                Courses in focus<span class="blue-period">.</span>
+              </h2>
+            </div>
+            <p class="section-note">
+              Learning the fundamentals, one concept at a time.
+            </p>
+          </div>
+          <div class="course-grid">
+            <article class="course-card reveal">
+              <div class="card-top">
+                <span class="course-number">01</span
+                ><span class="course-icon" aria-hidden="true">&lt;/&gt;</span>
+              </div>
+              <h3>Object Oriented Programming 1</h3>
+              <p>
+                Exploring core programming concepts and how object oriented
+                design helps organize and build software.
+              </p>
+              <div class="card-tags">
+                <span>Programming</span><span>Foundations</span>
+              </div>
+            </article>
+            <article class="course-card reveal">
+              <div class="card-top">
+                <span class="course-number">02</span
+                ><span class="course-icon" aria-hidden="true">⌘</span>
+              </div>
+              <h3>Introduction to IT</h3>
+              <p>
+                Developing a broad understanding of information technology,
+                digital systems, and how they shape our world.
+              </p>
+              <div class="card-tags">
+                <span>IT fundamentals</span><span>Systems</span>
+              </div>
+            </article>
+            <article class="course-card reveal">
+              <div class="card-top">
+                <span class="course-number">03</span
+                ><span class="course-icon" aria-hidden="true">◉</span>
+              </div>
+              <h3>Physics 1</h3>
+              <p>
+                Studying the principles of physics and strengthening the
+                analytical thinking behind technical problem solving.
+              </p>
+              <div class="card-tags">
+                <span>Science</span><span>Problem solving</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section
+        class="section section-soft projects"
+        id="projects"
+        aria-labelledby="projects-title"
+      >
+        <div class="container">
+          <div class="section-head-row reveal">
+            <div class="section-heading">
+              <p class="eyebrow">SELECTED WORK</p>
+              <h2 id="projects-title">
+                Projects I’ve built<span class="blue-period">.</span>
+              </h2>
+            </div>
+            <p class="section-note">
+              Three deployed projects, each exploring a different kind of web
+              experience.
+            </p>
+          </div>
+          <div class="project-grid">
+            <article class="project-card reveal">
+              <a
+                class="project-art freight-art"
+                href="https://freight-flow-ship.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open FreightFlow live demo in a new tab"
+              >
+                <div class="freight-scene" aria-hidden="true">
+                  <div class="route route-a"></div>
+                  <div class="route route-b"></div>
+                  <span class="route-node node-a"></span
+                  ><span class="route-node node-b"></span
+                  ><span class="route-node node-c"></span>
+                  <div class="freight-box"><span>F</span></div>
+                  <div class="art-chip">SHIPMENT OVERVIEW <b>● ACTIVE</b></div>
+                </div>
+                <span class="art-open" aria-hidden="true">↗</span>
+              </a>
+              <div class="project-info">
+                <div class="project-index">
+                  01 <span>·</span> AI &amp; LOGISTICS
+                </div>
+                <h3>FreightFlow</h3>
+                <p>
+                  A freight and logistics web application centered on organizing
+                  logistics workflows.
+                </p>
+                <a
+                  class="project-link"
+                  href="https://freight-flow-ship.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Live Demo <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <a
+                class="project-art messenger-art"
+                href="https://myrealtimemessenger.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open Real-Time Messenger live demo in a new tab"
+              >
+                <div class="chat-scene" aria-hidden="true">
+                  <div class="chat-window">
+                    <div class="chat-head">
+                      <span class="avatar">M</span
+                      ><span class="chat-head-lines"><b></b><i></i></span
+                      ><span class="online-dot"></span>
+                    </div>
+                    <div class="bubble bubble-left"></div>
+                    <div class="bubble bubble-right"></div>
+                    <div class="bubble bubble-left short"></div>
+                    <div class="chat-compose"><i></i><b>↑</b></div>
+                  </div>
+                  <span class="chat-spark">✳</span
+                  ><span class="chat-spark second">✳</span>
+                </div>
+                <span class="art-open" aria-hidden="true">↗</span>
+              </a>
+              <div class="project-info">
+                <div class="project-index">
+                  02 <span>·</span> WEB APPLICATION
+                </div>
+                <h3>Real-Time Messenger</h3>
+                <p>
+                  A real-time messaging web application designed to support
+                  online conversations and connected communication.
+                </p>
+                <a
+                  class="project-link"
+                  href="https://myrealtimemessenger.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Live Demo <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <a
+                class="project-art grading-art"
+                href="https://student-grading-management-system.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open Student Grading Management System live demo in a new tab"
+              >
+                <div class="grade-scene" aria-hidden="true">
+                  <div class="grade-window">
+                    <div class="grade-top">
+                      <span></span><span></span><span></span><b>GRADEBOOK</b>
+                    </div>
+                    <div class="grade-row header">
+                      <i>STUDENT</i><i>COURSE</i><i>GRADE</i>
+                    </div>
+                    <div class="grade-row">
+                      <i>Student record</i><i>Course data</i><strong>—</strong>
+                    </div>
+                    <div class="grade-row">
+                      <i>Student record</i><i>Course data</i><strong>—</strong>
+                    </div>
+                    <div class="grade-row">
+                      <i>Student record</i><i>Course data</i><strong>—</strong>
+                    </div>
+                  </div>
+                  <span class="grade-stamp">ACADEMIC<br />RECORDS</span>
+                </div>
+                <span class="art-open" aria-hidden="true">↗</span>
+              </a>
+              <div class="project-info">
+                <div class="project-index">
+                  03 <span>·</span> EDUCATION TECHNOLOGY
+                </div>
+                <h3>Student Grading Management System</h3>
+                <p>
+                  A web application for managing student grades and academic
+                  records in an education setting.
+                </p>
+                <a
+                  class="project-link"
+                  href="https://student-grading-management-system.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Live Demo <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </article>
+          </div>
+          <p class="project-footnote">
+            <span aria-hidden="true">✳</span> Each project opens in a new tab.
+          </p>
+        </div>
+      </section>
+      <section
+        class="section skills"
+        id="skills"
+        aria-labelledby="skills-title"
+      >
+        <div class="container">
+          <div class="section-head-row reveal">
+            <div class="section-heading">
+              <p class="eyebrow">AREAS I’M EXPLORING</p>
+              <h2 id="skills-title">
+                Learning in progress<span class="blue-period">.</span>
+              </h2>
+            </div>
+            <p class="section-note">
+              A snapshot of the topics I’m studying and practicing—no scores,
+              just curiosity.
+            </p>
+          </div>
+          <div class="skills-grid">
+            <article class="skill-card reveal">
+              <span class="skill-icon" aria-hidden="true">&lt;/&gt;</span>
+              <div>
+                <h3>Programming</h3>
+                <p>OOP foundations and programming practice</p>
+              </div>
+              <span class="skill-arrow" aria-hidden="true">↗</span>
+            </article>
+            <article class="skill-card reveal">
+              <span class="skill-icon" aria-hidden="true">▦</span>
+              <div>
+                <h3>Web Development</h3>
+                <p>Building and exploring web applications</p>
+              </div>
+              <span class="skill-arrow" aria-hidden="true">↗</span>
+            </article>
+            <article class="skill-card reveal">
+              <span class="skill-icon" aria-hidden="true">⌘</span>
+              <div>
+                <h3>Networking</h3>
+                <p>Learning how connected systems communicate</p>
+              </div>
+              <span class="skill-arrow" aria-hidden="true">↗</span>
+            </article>
+            <article class="skill-card reveal">
+              <span class="skill-icon" aria-hidden="true">◈</span>
+              <div>
+                <h3>IT Fundamentals</h3>
+                <p>Core concepts from university study</p>
+              </div>
+              <span class="skill-arrow" aria-hidden="true">↗</span>
+            </article>
+            <article class="skill-card reveal">
+              <span class="skill-icon" aria-hidden="true">⌑</span>
+              <div>
+                <h3>Cybersecurity</h3>
+                <p>An area of interest I’m eager to explore</p>
+              </div>
+              <span class="skill-arrow" aria-hidden="true">↗</span>
+            </article>
+            <article class="skill-card reveal">
+              <span class="skill-icon" aria-hidden="true">✳</span>
+              <div>
+                <h3>Problem Solving</h3>
+                <p>Practicing through coursework and projects</p>
+              </div>
+              <span class="skill-arrow" aria-hidden="true">↗</span>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section
+        class="section contact-section section-soft"
+        id="contact"
+        aria-labelledby="contact-title"
+      >
+        <div class="container contact-panel reveal">
+          <div class="contact-decoration" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="contact-content">
+            <p class="eyebrow">HAVE A QUESTION OR AN IDEA?</p>
+            <h2 id="contact-title">
+              Let’s start a<br /><span class="gradient-text"
+                >conversation.</span
+              >
+            </h2>
+            <p>
+              I’m glad to connect with fellow learners, hear about interesting
+              ideas, or talk about technology.
+            </p>
+            <a
+              class="button button-primary"
+              href="mailto:your.email@example.com"
+              >Email me <span aria-hidden="true">↗</span></a
+            >
+            <p class="placeholder-note">
+              Replace <strong>your.email@example.com</strong> with your email
+              address.
+            </p>
+          </div>
+          <div class="contact-links">
+            <div class="contact-link-item">
+              <span class="contact-link-icon" aria-hidden="true">@</span>
+              <div>
+                <span class="contact-label">EMAIL</span
+                ><a href="mailto:your.email@example.com"
+                  >your.email@example.com</a
+                >
+              </div>
+            </div>
+            <div class="contact-link-item">
+              <span class="contact-link-icon" aria-hidden="true">↗</span>
+              <div>
+                <span class="contact-label">PROFESSIONAL LINKS</span
+                ><span class="placeholder-text"
+                  >Add your LinkedIn or GitHub profile URL</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="brand footer-brand" href="#home"
+          ><span class="brand-mark">FM</span
+          ><span>Farruxbek<span class="brand-dot">.</span></span></a
+        >
+        <div class="footer-nav">
+          <a href="#about">About</a><a href="#projects">Projects</a
+          ><a href="#contact">Contact</a>
+        </div>
+        <p>© <span id="current-year"></span> Farruxbek Mirzakulov</p>
+        <a class="back-top" href="#home" aria-label="Back to top"
+          >BACK TO TOP ↑</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>
